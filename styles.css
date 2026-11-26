@@ -63,3 +63,31 @@ h3 {
     height: auto;
     margin: auto;
 }
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 2px;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
