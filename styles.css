@@ -1,30 +1,34 @@
 /*  your css code here. If applicable */
 
+
 /* General styling */
 body {
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman", Times, serif;
+    margin: 8px;
 }
 
 h3 {
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
 }
 
-/* Common table styling */
-.middle {
-    width: 85%;
-    margin: 20px auto;
-    border: 1px solid black;
-    border-spacing: 1px;
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
 }
 
-.middle td {
-    border: 1px solid black;
-    padding: 1px;
+td {
+    border: 2px solid gray;
+    padding: 2px;
+    font-size: 18px;
 }
 
-/* Table 1 */
-#table-1 {
-    height: 85px;
+.left {
+    text-align: left;
 }
 
 .center {
@@ -32,6 +36,19 @@ h3 {
 }
 
 .right {
+    text-align: right;
+}
+
+/* Table 1 */
+#table-1 {
+    height: 85px;
+}
+
+#table-1 tr:nth-child(2) {
+    text-align: center;
+}
+
+#table-1 td:last-child {
     text-align: right;
 }
 
@@ -47,10 +64,12 @@ h3 {
 
 .green {
     background-color: green;
+    height: 25px;
 }
 
 .blue {
     background-color: blue;
+    height: 25px;
 }
 
 #t-image {
@@ -58,36 +77,7 @@ h3 {
 }
 
 #t-image img {
-    display: block;
     max-width: 100%;
     height: auto;
-    margin: auto;
+    display: block;
 }
-
-h2 {
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    border: 1px solid black;
-    border-spacing: 2px;
-}
-
-td {
-    border: 1px solid black;
-    font-size: 24px;
-}
-
-.left {
-    text-align: left;
-}
-
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
-
